@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #fff;
+}
+.navbar-brand img{
+    height: 65px;
+}
+
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 0px 10px;
+    color: black !important;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: #062241 !important;
+}
+
+.top-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-contact{
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 0px;
+    color: white;
+}
+
+.top-icons{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+.top-icons i{
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.top-icons i:hover{
+    margin-top: -5px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    background: #fff;
+    height: 700px !important;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slide1{
+    background-image: url(../imgs/slide1.jpg);
+    /* height: 100% !important; */
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .slide2{
+    background-image: url(../imgs/slide2.jpg);
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .slide_h4{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .slide_p{
+    color: #fff;
+    font-family: "Poppins", serif;
+    font-weight:600;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .slide_butt{
+    background-color: #062241;
+    border: 1px solid #062241;
+    padding:10px;
+    font-family: "Poppins", serif;
+    color: white;
+    border-radius:5px;
+    transition: all .3s;
+    font-weight: 500;
+  }
+
+  .slide_butt:hover{
+    background-color: white;
+    color:#062241;
+  }
+
+  .topp_head{
+    background-color:#062241;
+  }
+
+
+  .sec-title{
+    font-family: "Montserrat", sans-serif;
+    color: #062241;
+    font-weight: 600;
+  }
+
+  .abt_title{
+    font-size: 40px;
+    font-family: "Poppins", serif;
+    line-height: 45px;
+    font-weight: 500;
+  }
+
+  /* .abt_info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  } */
+
+  .abt_text{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .abt_ul{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .ser_card{
+    background-color: white;
+    border-radius: 10px;
+    transition: all .3s;
+  }
+
+  .ser_card:hover{
+    margin-top: -5px;
+  }
+
+  .ser_card i{
+    font-size: 50px;
+  }
+
+  .ser_title{
+    font-family: "Poppins", serif;
+  }
+
+  .ser_info{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+  }
+
+  .ser_sec{
+    background-image:linear-gradient(rgba(6,34,65,.5),rgba(6,34,65,.5)),url(../imgs/ser_bg2.jpg);
+  }
+
+  .blog_card{
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 5px 12px 26px -20px rgba(0,0,0,0.75);
+    border-radius: 10px;                    
+  }
+
+  .blog_card img{
+    transition: all .4s;
+    /* height: 300px; */
+  }
+
+  .blog_card:hover img{
+    transform: scale(1.05);
+  }
+  .img_div{
+    overflow: hidden;
+  }
+
+  .datee{
+    font-family: "Montserrat", sans-serif;
+    
+  }
+
+  footer{
+    background-image: url(../imgs/ser_bg.jpg);
+  }
+
+  .foot_logo{
+    height: 80px;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .foot_info{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0px;
+  }
+
+  /* .top-icons2{
+    display: flex;
+    justify-content: space-evenly;
+  } */
+
+  .top-icons2 i{
+    color: white;
+    font-size: 22px;
+    background-color: #093970;
+    padding: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+
+  
+  @media only screen and (max-width:768px) {
+    body,html{
+      overflow-x: hidden !important;
+    }
+    .top-icons i {
+        font-size: 14px;
+    }
+    .top-contact {
+        font-size: 11px;
+    }
+
+    .colm{
+      text-align: left !important;
+      margin: 10px  0px !important;
+    }
+  }
